@@ -26,7 +26,7 @@ public class TCPClient {
         
 
         try {
-            System.setProperty("javax.net.ssl.trustStore", "../../../keystore.jks");
+            System.setProperty("javax.net.ssl.trustStore", "keystore.jks");
             System.setProperty("javax.net.ssl.trustStorePassword", "password");
             
             SSLSocketFactory factory = (SSLSocketFactory) SSLSocketFactory.getDefault();
