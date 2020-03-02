@@ -23,7 +23,7 @@ public class TCPServer {
     private final static String algorithm = "SSL";
     private final static String implementation = "SunX509";
     private final static String kind = "JKS";
-    private final static String file = "../../../keystore.jks";
+    private final static String file = "keystore.jks";
 
     public static void main(final String[] args) {
         if (args.length != 1) {
